@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ .navbar {
+    background-color:white;
+    width: 100%;
+    box-shadow: 0px 5px 7px lightgray;
+  
+}
+.navbar h2{
+    color: red;
+    margin-left: 10%;
+    padding-bottom: 5px;
+ 
+}
+
+
+.paragraph{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #575757;
+}
+.paragraph p{
+    text-transform: uppercase;
+    text-align: center;
+}
+.paragraph h1{
+    text-align: center;
+}
+.borderlogo{
+    margin-top: 50px;
+    width: 700px;
+    height: 350px;
+
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px dashed rgba(211, 19, 17, 0.65);
+    border-radius: 21px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.borderlogo p{
+    color: #575757;
+}
+.borderlogo .browsered{
+    color: red;
+}
+
+#uploadpdffile{
+    display: none;
+}
+.upload{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    max-width: max-content;
+    padding: 8px 30px;
+    color: white;
+    background: #D31311;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbar .listitems {
+    /* float: right; */
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top:-20px ;
+    
+    
+}
+.paragraph p{
+    margin-top:10px ;
+}
+
+
+h5{
+        
+position: absolute;
+width: 132px;
+height: 23px;
+left: 500px;
+top: 640px;
+
+
+font-weight: 600;
+font-size: 21px;
+line-height: 23px;
+text-align: center;
+
+color: #2E2E2E;
+
+    }
+.uplodesilver{
+       
+position: absolute;
+width: 654px;
+height: 9px;
+left: 600px;
+top: 710px;
+
+background: #D9D9D9;
+border-radius: 20px;
+
+    }
+ .uplodered{
+        
+position: absolute;
+width: 477px;
+height: 9px;
+left:1px;
+top: 1px;
+
+background: #FF4745;
+border-radius: 20px;
+    }
+.uplodesfilesilver{
+        
+position: absolute;
+width: 654px;
+height: 9px;
+left: 600px;
+top: 800px;
+
+background: #D9D9D9;
+border-radius: 20px;
+    }
+
+.uplodesfilesred{
+        
+position: absolute;
+width: 349px;
+height: 9px;
+left: 1px;
+top: 1px;
+
+background: #FF4745;
+border-radius: 20px;
+    }
+.uplodepra1{
+    
+position: absolute;
+width: 115px;
+height: 19px;
+left:5px;
+top: 15px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+color: #787878;
+}
+.uplodepra2{
+
+   
+    position: absolute;
+    width: 115px;
+    height: 19px;
+    left:5px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #787878
+}
+.pdf1{
+    
+position: absolute;
+width: 142px;
+height: 21px;
+left: -1px;
+top: -27px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #3E3E3E;
+}
+.pdf2{
+    
+    position: absolute;
+width: 142px;
+height: 21px;
+left: -1px;
+top: 65px;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #3E3E3E;
+}
+.borderlogo .filelogo{
+   
+}
+
+.borderlogo .boxlogo{
+    margin-left:450px ;
+}
+.borderlogo .imglogo{
+
+}
+
+
+.png1{
+    width:70px;                                                                                                                      
+    position: absolute;
+    top:675px;
+    left: 510px;
+}
+
+.png2{
+    width:70px ;
+position: absolute;
+top: 770px;
+left: 510px;
+}
+.akaricon1{
+ margin-left: 70.5%;
+ margin-top: 53px;
+
+}
+.akaricon2{
+    margin-top: 30px;
+    margin-left: 70.5%;
+}
+
+/*     
+   .navbar li::after{
+    content: ;
+    display: block;
+    clear: both;
+   } */
